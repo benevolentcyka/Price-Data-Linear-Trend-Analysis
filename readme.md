@@ -23,7 +23,7 @@ This Python script performs time series analysis on a dataset containing date an
 
 3. **Running the Script:**
     - Adjust the script if necessary (e.g., file paths, date formats).
-    - Run the script using: `python your_script.py`.
+    - Run the script using: `python LinearTrend.py`.
 
 ## Script Functionality
 
