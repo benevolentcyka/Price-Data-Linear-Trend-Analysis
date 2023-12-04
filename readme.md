@@ -1,4 +1,4 @@
-# Price Trend Analysis Script
+# Time Series Analysis Script
 
 ## Overview
 
@@ -6,11 +6,11 @@ This Python script performs time series analysis on a dataset containing date an
 
 ## Setup
 
-1.   Environment Setup:
+1. **Environment Setup:**
     - Ensure you have Python installed on your system.
     - Install the required libraries using: `pip install pandas numpy matplotlib`.
 
-2.   Dataset Format:
+2. **Dataset Format:**
     - Prepare a CSV file with two columns: 'Dates' and 'Prices', where 'Dates' represent the date information, and 'Prices' represent the corresponding prices.
 
     - Example Dataset (see 'Nat_Gas.csv' in the repository for formatting):
@@ -21,22 +21,22 @@ This Python script performs time series analysis on a dataset containing date an
       12/31/20, 1.8
       ```
 
-3.   Running the Script:
+3. **Running the Script:**
     - Adjust the script if necessary (e.g., file paths, date formats).
-    - Run the script using: `python LinearTrend.py`.
+    - Run the script using: `python your_script.py`.
 
 ## Script Functionality
 
--     Linear Regression:
+- **Linear Regression:**
     - Calculates a linear trend for the prices over time.
 
--     Residual Analysis:
+- **Residual Analysis:**
     - Identifies residuals (differences between actual prices and predicted prices).
 
--     Cheap and Costly Months:
+- **Cheap and Costly Months:**
     - Determines months where prices deviate significantly from the linear trend.
 
--     Visualization:
+- **Visualization:**
     - Plots the original prices, linear trend, and highlights cheap and costly months.
 
 ## Results
