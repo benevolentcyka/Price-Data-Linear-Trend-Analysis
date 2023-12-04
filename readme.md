@@ -38,6 +38,7 @@ This Python script performs time series analysis on a dataset containing date an
 
 - **Visualization:**
     - Plots the original prices, linear trend, and highlights cheap and costly months.
+    - ![alt text](https://github.com/roasterboi69/Price-Data-Linear-Trend-Analysis/blob/main/trendgraph.png?raw=true)
 
 ## Results
 
